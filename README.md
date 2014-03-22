@@ -1,4 +1,4 @@
 git-workflow
 ============
 
-A Presentation Demonstrating a Sample Git Workflow For Students at Portland Code School
+A presentation demonstrating a sample Git workflow for students at Portland Code School
