@@ -54,7 +54,6 @@
           <h2>Our Objectives</h2>
           <ul>
             <li class="fragment">To not overwhelm beginners</li>
-            <li class="fragment">...only to whelm</li>
             <li class="fragment">To give you <em>one</em> clear path to start using git rather than just memorizing a huge list of commands</li>
             <li class="fragment">To give an example of a real-world workflow</li>
           </ul>
@@ -77,11 +76,11 @@
 
           <section>
             <h2>Configuration</h2>
-            <pre><code>git config --global -l</code></pre>
-            <pre class="fragment"><code>git config --global user.name "John Doe"</code></pre>
-            <pre class="fragment"><code>git config --global user.email "johndoe@example.com"</code></pre>
-            <pre class="fragment"><code>git config --global push.default current</code></pre>
-            <pre class="fragment"><code>git config --global merge.defaultToUpstream true</code></pre>
+            <p class="fragment"><em>git config --global -l </em></p>
+            <p class="fragment"><em>git config --global user.name "John Doe"</em></p>
+            <p class="fragment"><em>git config --global user.email "johndoe@example.com"</em></p>
+            <p class="fragment"><em>git config --global push.default current</em></p>
+            <p class="fragment"><em>git config --global merge.defaultToUpstream true</em></p>
             <p class="fragment"><a href="https://help.github.com/articles/set-up-git">Password caching instructions</a></p>
           </section>
 
@@ -106,18 +105,18 @@
             <h2>A Solo Workflow (including commands)</h2>
             <ol>
               <li class="fragment">create a new Github repo</li>
-              <li class="fragment"><em>clone</em> the repo from github to our machine
-                <pre><code>git clone https://github.com/path/to/repository.git</code></pre>
+              <li class="fragment">clone the repo from github to our machine: 
+                <em>git clone https://github.com/path/to/repository.git</em>
               </li>
               <li class="fragment">do some work</li>
               <li class="fragment">add files to track: 
-                <pre><code>git add index.html</code></pre>
+                <em>git add index.html</em>
               </li>
-              <li class="fragment">commit changes <em>and</em> write a commit message: 
-                <pre><code>git commit -m "make a fancy webpage"</code></pre>
+              <li class="fragment">commit changes and write a commit message: 
+                <em>git commit -m "make a fancy webpage"</em>
               </li>
               <li class="fragment">Push our changes up to Github
-                <pre><code>git push</code></pre>
+                <em>git push</em>
               </li>
               <li class="fragment">Repeat steps 3-6</li>
             </ol>
@@ -139,11 +138,11 @@
               <ol>
                 <li class="fragment">create a new Github repo</li>
                 <li class="fragment">add some collaborators (admin only)</li>
-                <li class="fragment"><em>clone</em> the repo from github to our machine
-                  <pre><code>git clone https://github.com/path/to/repository.git</code></pre>
+                <li class="fragment">clone the repo from github to our machine:
+                  <em>git clone https://github.com/path/to/repository.git</em>
                 </li>
-                <li class="fragment">Make a working branch (feature branch)
-                  <pre><code>git checkout -b branchname</code></pre>
+                <li class="fragment">Make a working/feature branch:
+                  <em>git checkout -b branchname</em>
                 </li>
                 <li class="fragment">do some work</li>
               </ol>
@@ -151,14 +150,14 @@
             <section>
               <h2>A Collaborative Workflow: Part 2</h2>
               <ol>
-                <li class="fragment">add files to track
-                  <pre><code>git add fileName.html</code></pre>
+                <li class="fragment">add files to track:
+                  <em>git add fileName.html</em>
                 </li>
-                <li class="fragment">commit changes <em>and</em> write a commit message: 
-                  <pre><code>git commit -m "make a fancy webpage"</code></pre>
+                <li class="fragment">commit changes and write a commit message: 
+                  <em>git commit -m "make a fancy webpage"</em>
                 </li>
                 <li class="fragment">Push our changes up to Github
-                  <pre><code>git push</code></pre>
+                  <em>git push</em>
                 </li>
                 <li class="fragment">do a pull request</li>
                 <li class="fragment">merge the pull request (admin only)</li>
@@ -173,18 +172,18 @@
 
           <section>
             <h3>Challenge</h3>
-            <p>Following the steps from the previous slides:</p>
-            <ul>
+            <p>Following the steps from the livious slides:</p>
+            <ol>
               <li>Get into groups of 3</li>
-              <li>Elect a supreme leader / admin</li>
-              <li>The leader will make a repo on github and add collaborators</li>
-              <li>each person in the group will work in the own branch named with er... their name</li>
-              <li>each person will make an html file named with their name</li>
+              <li>Elect an admin</li>
+              <li>The admin will make a repo on github and add collaborators</li>
+              <li>each person in the group will work in the own branch named with their own name</li>
+              <li>each person will make an html file named with their own name</li>
               <li>work in your own branch and then get everything up on github</li>
-              <li>everyone does a pull request, then admin merges</li>
+              <li>everyone does a pull request, then ONLY the admin merges</li>
               <li>lastly, do a git pull to update your local master branch</li>
               <li>When you are done and have achieved victory, say "woot!"</li>
-            </ul>
+            </ol>
           </section>
 
         <section>
