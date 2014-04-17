@@ -86,6 +86,20 @@
           </section>
 
           <section>
+            <h2>SSH Key Configuration</h2>
+            <code>
+            bash -c "$(curl -fsSL http://bit.ly/pcs-git)"
+            </code>
+            <p>
+              This copies something for you (as if you had typed &#8984;C) that
+              will allow you to magically access GitHub repositories without passwords.
+            </p>
+            <p>
+              We'll paste that into the GitHub SSH keys with  &#8984;V.
+            </p>
+          </section>
+
+          <section>
             <h2>A Solo Workflow</h2>
             <ol>
               <li class="fragment">create a new Github repo</li>
@@ -107,7 +121,7 @@
             <ol>
               <li class="fragment">create a new Github repo</li>
               <li class="fragment"><em>clone</em> the repo from github to our machine
-                <pre><code>git clone https://github.com/path/to/repository.git</code></pre>
+                <pre><code>git clone git@github.com:user/repository.git</code></pre>
               </li>
               <li class="fragment">do some work</li>
               <li class="fragment">add files to track: 
@@ -140,7 +154,7 @@
                 <li class="fragment">create a new Github repo</li>
                 <li class="fragment">add some collaborators (admin only)</li>
                 <li class="fragment"><em>clone</em> the repo from github to our machine
-                  <pre><code>git clone https://github.com/path/to/repository.git</code></pre>
+                  <pre><code>git clone git@github.com:user/repository.git</code></pre>
                 </li>
                 <li class="fragment">Make a working branch (feature branch)
                   <pre><code>git checkout -b branchname</code></pre>
